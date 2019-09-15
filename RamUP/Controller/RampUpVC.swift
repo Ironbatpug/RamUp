@@ -1,5 +1,5 @@
 //
-//  RampPickerVC.swift
+//  RampUpVC.swift
 //  RamUP
 //
 //  Created by Molnár Csaba on 2019. 09. 15..
@@ -10,6 +10,7 @@ import UIKit
 import SceneKit
 
 class RampPickerVC: UIViewController {
+    
     var sceneView: SCNView!
     var size: CGSize!
     
@@ -24,12 +25,13 @@ class RampPickerVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         view.frame = CGRect(origin: CGPoint.zero, size: size)
         sceneView = SCNView(frame: CGRect(x: 0, y: 0, width: size.width, height: size.height))
         view.insertSubview(sceneView, at: 0)
         
         preferredContentSize = size
     }
+
 
 }

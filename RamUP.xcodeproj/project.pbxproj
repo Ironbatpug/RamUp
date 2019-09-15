@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		75958640232E3487008EED5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595863F232E3487008EED5B /* AppDelegate.swift */; };
 		75958642232E3487008EED5B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 75958641232E3487008EED5B /* art.scnassets */; };
-		75958644232E3487008EED5B /* RampPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75958643232E3487008EED5B /* RampPlayerVC.swift */; };
+		75958644232E3487008EED5B /* RampPlacerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75958643232E3487008EED5B /* RampPlacerVC.swift */; };
 		75958647232E3487008EED5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75958645232E3487008EED5B /* Main.storyboard */; };
 		75958649232E3488008EED5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75958648232E3488008EED5B /* Assets.xcassets */; };
 		7595864C232E3488008EED5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7595864A232E3488008EED5B /* LaunchScreen.storyboard */; };
-		75958655232E3BCE008EED5B /* RampPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75958654232E3BCE008EED5B /* RampPickerVC.swift */; };
+		75958659232E4E06008EED5B /* RampPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75958658232E4E06008EED5B /* RampPickerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7595863C232E3487008EED5B /* RamUP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamUP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7595863F232E3487008EED5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75958641232E3487008EED5B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		75958643232E3487008EED5B /* RampPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RampPlayerVC.swift; sourceTree = "<group>"; };
+		75958643232E3487008EED5B /* RampPlacerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RampPlacerVC.swift; sourceTree = "<group>"; };
 		75958646232E3487008EED5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75958648232E3488008EED5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7595864B232E3488008EED5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7595864D232E3488008EED5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75958654232E3BCE008EED5B /* RampPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RampPickerVC.swift; sourceTree = "<group>"; };
+		75958658232E4E06008EED5B /* RampPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RampPickerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +72,8 @@
 		75958653232E35D8008EED5B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				75958643232E3487008EED5B /* RampPlayerVC.swift */,
-				75958654232E3BCE008EED5B /* RampPickerVC.swift */,
+				75958643232E3487008EED5B /* RampPlacerVC.swift */,
+				75958658232E4E06008EED5B /* RampPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -150,8 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75958644232E3487008EED5B /* RampPlayerVC.swift in Sources */,
-				75958655232E3BCE008EED5B /* RampPickerVC.swift in Sources */,
+				75958644232E3487008EED5B /* RampPlacerVC.swift in Sources */,
+				75958659232E4E06008EED5B /* RampPickerVC.swift in Sources */,
 				75958640232E3487008EED5B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
